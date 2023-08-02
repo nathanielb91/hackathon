@@ -1,6 +1,6 @@
 <div class="content">
-    <h2>Good Weather Golf</h2>
-    <h4>Click below to see when you can play golf this week!</h4>
-    <button mat-raised-button color="primary" (click)="showTeeTimes = true">Let's Golf!</button>
-    <app-home *ngIf="showTeeTimes"></app-home>
+    <div class="title">Good Weather Golf</div>
+    <h4 *ngIf="!showTeeTimes">Click below to see upcoming tee times with good weather for the upcoming week!</h4>
+    <button *ngIf="!showTeeTimes" (click)="findTeeTimes()">Let's golf!</button>
 </div>
+<router-outlet></router-outlet>

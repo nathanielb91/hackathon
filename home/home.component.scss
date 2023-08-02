@@ -7,9 +7,27 @@
 mat-card-header {
   background-color: rgba(199, 199, 199, 0.438);
   border-radius: 10px 10px 0px 0px;
-  padding: 20px;
+  padding: 10px 15px;
 }
 
-p {
-  margin-left: 20px;
+mat-card-content {
+  padding: 5px 10px;
+}
+
+mat-card-title,
+mat-card-subtitle {
+  font-weight: bold
+}
+
+.message {
+  margin-left: 17px;
+  color: white;
+  font-size: 20px;
+}
+
+.enabled-btn {
+  color: green;
+  font-weight: bold;
+  border-radius: 5px;
+  border-width: thin;
 }

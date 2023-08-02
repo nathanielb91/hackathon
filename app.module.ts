@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
 import { LandingComponent } from './landing/landing.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LandingComponent
+    LandingComponent,
+    ConfirmationComponent
   ],
   imports: [
     BrowserModule,
